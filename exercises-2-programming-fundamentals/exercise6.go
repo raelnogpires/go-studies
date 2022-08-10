@@ -1,4 +1,4 @@
-package main
+package ex2
 
 import "fmt"
 
@@ -12,6 +12,6 @@ const (
 	year4
 )
 
-func main() {
+func ex6() {
 	fmt.Println(year1, year2, year3, year4)
 }

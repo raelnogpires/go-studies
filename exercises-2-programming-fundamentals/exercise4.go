@@ -1,4 +1,4 @@
-package main
+package ex2
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ import (
 // deslocate the bytes of the variable 1 to the left and store this value in another variable
 // print the value of the second variable as decimal, binary and hexadecimal.
 
-func main() {
+func ex4() {
 	const primary int64 = 28
 	// other way to demonstrate the value:
 	// fmt.Printf("%d\t%b\t%#x\n", primary, primary, primary)

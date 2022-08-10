@@ -1,4 +1,4 @@
-package main
+package ex3
 
 import "fmt"
 
@@ -12,7 +12,7 @@ func testIf(arg bool) {
 	}
 }
 
-func main() {
+func ex5() {
 	testIf(true)
 	testIf(false)
 }

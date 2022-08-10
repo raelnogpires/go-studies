@@ -1,4 +1,4 @@
-package main
+package ex1
 
 import "fmt"
 
@@ -12,7 +12,7 @@ type something int
 
 var x something
 
-func main() {
+func ex5() {
 	fmt.Println(x)
 	fmt.Printf("x: %T\n", x)
 

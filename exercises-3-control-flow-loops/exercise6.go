@@ -1,4 +1,4 @@
-package main
+package ex3
 
 import "fmt"
 
@@ -14,7 +14,7 @@ func ifTest(fruit string) {
 	}
 }
 
-func main() {
+func ex6() {
 	ifTest("apple")
 	ifTest("blueberry")
 	ifTest("watermelon")

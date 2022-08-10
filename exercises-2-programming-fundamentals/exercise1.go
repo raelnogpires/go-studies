@@ -1,4 +1,4 @@
-package main
+package ex2
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 )
 
 // write a program that prints a number in decimal, binary and hexadecimal
-func main() {
+func ex1() {
 	decimal := 42
 	fmt.Println("decimal number -> ", decimal)
 

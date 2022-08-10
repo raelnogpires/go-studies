@@ -1,4 +1,4 @@
-package main
+package ex4
 
 import "fmt"
 
@@ -7,7 +7,7 @@ import "fmt"
 // using `range`, print each value
 // using format printing, print the type of the array
 
-func main() {
+func ex1() {
 	arr := [5]int{1, 2, 3, 4, 5}
 
 	for _, i := range arr {

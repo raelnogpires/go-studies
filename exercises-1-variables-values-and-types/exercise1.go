@@ -1,4 +1,4 @@
-package main
+package ex1
 
 import "fmt"
 
@@ -9,7 +9,7 @@ import "fmt"
 // Demonstre os valores dessas variáveis usando uma única declaração de print
 // e também múltiplas declarações
 
-func main() {
+func ex1() {
 	x := 42
 	y := "James Bond"
 	z := true

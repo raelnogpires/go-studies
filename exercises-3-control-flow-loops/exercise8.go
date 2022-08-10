@@ -1,11 +1,11 @@
-package main
+package ex3
 
 import "fmt"
 
 // create a program that use switch statement where the switch are
 // a string variable with the identifier `favSport`
 
-func main() {
+func ex8() {
 	favSport := "soccer"
 
 	switch favSport {

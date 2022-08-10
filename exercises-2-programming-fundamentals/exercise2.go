@@ -1,4 +1,4 @@
-package main
+package ex2
 
 import "fmt"
 
@@ -12,7 +12,7 @@ var less = (74 < 50)            // should log false
 var greaterOrEqual = (42 >= 50) // should log false
 var greater = (74 > 50)         // should log true
 
-func main() {
+func ex2() {
 	fmt.Println(equal)
 	fmt.Println(diff)
 	fmt.Println(lessOrEqual)

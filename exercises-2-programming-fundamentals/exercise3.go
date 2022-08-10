@@ -1,4 +1,4 @@
-package main
+package ex2
 
 import "fmt"
 
@@ -8,7 +8,7 @@ import "fmt"
 const typed int = 42
 const untyped = "this variable has no type"
 
-func main() {
+func ex3() {
 	fmt.Println(typed)
 	fmt.Println(untyped)
 }

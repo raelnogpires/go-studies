@@ -1,10 +1,10 @@
-package main
+package ex3
 
 import "fmt"
 
 // create a program that use switch statement without switch statement specified.
 
-func main() {
+func ex7() {
 	thirsty := 2
 
 	switch {

@@ -1,18 +1,18 @@
-package main
+package ex1
 
 import "fmt"
 
 // Crie um tipo. O tipo subjacente deve ser int.
 // Crie uma variável para este tipo, com o identificador "x", utilizando a palavra-chave var.
 
-type something int
+type w int
 
-var x something
+var h w
 
-func main() {
-	fmt.Println(x)
-	fmt.Printf("x: %T\n", x)
+func ex4() {
+	fmt.Println(h)
+	fmt.Printf("h: %T\n", h)
 
-	x = 10
-	fmt.Println(x)
+	h = 10
+	fmt.Println(h)
 }
